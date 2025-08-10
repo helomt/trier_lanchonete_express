@@ -187,9 +187,18 @@ body {
 }
 
 footer {
-  margin: rem;
+  padding-top: 1rem;
+  background-color: var(--primary);
+  color:var(--bg);
+  margin-top: 0.5rem;
   text-align: center;
-  height: 10vh;
+  height: 11vh;
+}
+footer h5{
+  color: var(--details);
+}
+footer p{
+  font-size: 12px;
 }
 
 @media (max-width: 800px) {
