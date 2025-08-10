@@ -91,7 +91,6 @@ function carregarCarrinho() {
 
     if (carrinho.length === 0) {
         carrinhoVazioMessage.style.display = 'block';
-        console.log("carrinho vazio")
     } else {
         carrinhoVazioMessage.style.display = 'none';
         carrinho.forEach(item => {
