@@ -1,25 +1,29 @@
-// Dados do cardápio com no mínimo 18 itens
+// Dados do cardápio
 const menuItems = [
-    { id: 1, name: 'Hambúrguer Clássico', price: 25.00, emoji: '🍔' },
-    { id: 2, name: 'Batata Frita', price: 12.00, emoji: '🍟' },
-    { id: 3, name: 'Refrigerante Cola', price: 8.00, emoji: '🥤' },
-    { id: 4, name: 'Milkshake de Morango', price: 18.00, emoji: '🍦' },
-    { id: 5, name: 'Cheeseburguer Duplo', price: 30.00, emoji: '�🍔' },
-    { id: 6, name: 'Nuggets de Frango', price: 15.00, emoji: '🍗' },
-    { id: 7, name: 'Salada da Casa', price: 22.00, emoji: '🥗' },
-    { id: 8, name: 'Sanduíche de Frango', price: 28.00, emoji: '🥪' },
-    { id: 9, name: 'Anéis de Cebola', price: 14.00, emoji: '🧅' },
-    { id: 10, name: 'Suco de Laranja', price: 10.00, emoji: '🍊' },
-    { id: 11, name: 'Hambúrguer Vegano', price: 35.00, emoji: '🍔🌱' },
-    { id: 12, name: 'Pizza Pedaço', price: 16.00, emoji: '🍕' },
-    { id: 13, name: 'Açaí na Tigela', price: 20.00, emoji: '🍧' },
-    { id: 14, name: 'Bolo de Chocolate', price: 12.00, emoji: '🍰' },
-    { id: 15, name: 'Água Mineral', price: 5.00, emoji: '💧' },
-    { id: 16, name: 'Sorvete Casquinha', price: 7.00, emoji: '🍦' },
-    { id: 17, name: 'Hot Dog Simples', price: 18.00, emoji: '🌭' },
-    { id: 18, name: 'Porção de Queijo', price: 17.00, emoji: '🧀' },
-    { id: 19, name: 'Churros com Doce de Leite', price: 15.00, emoji: '🍩' },
-    { id: 20, name: 'Café Expresso', price: 6.00, emoji: '☕' },
+    { id: 1, name: 'Mega Stack 2.0', price: 21.90,category: "Especial", image:"/img/menu/1_mega_stack.png" },
+    { id: 2, name: 'Mega Stack 3.0', price: 38.90,category:"Especial", image:"/img/menu/2_mega_stack_3.0.png"},
+    { id: 3, name: 'Express Barbecue Bacon', price: 29.90,category:"Especial", image:"/img/menu/3_bbq_bacon.png" },
+    { id: 4, name: 'Furious Express', price: 27.99,category:"Especial", image:"/img/menu/4_furious.png" },
+    { id: 5, name: 'Big Express', price: 38.99,category:"Carne", image:"/img/menu/5_big_express.png" },
+    { id: 6, name: 'Cheeseburguer Duplo', price: 25.90,category:"Carne", image:"/img/menu/6_cheeseburger_duplo.png"},
+    { id: 7, name: 'Cheddar Express', price: 11.99,category:"Carne", image:"/img/menu/7_cheddar.png"},
+    { id: 8, name: 'Chicken Crispy Express', price: 18.90,category:"Frango", image:"/img/menu/8_chicken_crispy.png" },
+    { id: 9, name: 'Veggie Express', price: 13.90,category:"Vegetariano", image:"/img/menu/9_vegetariano.png" },
+    { id: 10, name: 'Kids Burguer', price: 14.90,category:"Kids", image:"/img/menu/10_kids_burguer.png"},
+    { id: 11, name: 'Batata Frita', price: 13.99,category:"Acompanhamentos", image:"/img/menu/11_batata_frita.png" },
+    { id: 12, name: 'Balde de Batata', price: 29.80,category:"Acompanhamentos", image:"/img/menu/12_balde_batata.png" },
+    { id: 13, name: 'Onion Rings', price: 10.90,category:"Acompanhamentos", image:"/img/menu/13_onion_rings.png"},
+    { id: 14, name: 'Express Nuggets', price: 6.90,category:"Acompanhamentos", image:"/img/menu/14_express_chicken.png" },
+    { id: 15, name: 'Molho BBQ', price: 4.99,category:"Molhos", image:"/img/menu/15_molho_bbq.png"},
+    { id: 16, name: 'Molho Furioso', price: 5.99,category:"Molhos", image:"/img/menu/16_molho_furioso.png" },
+    { id: 17, name: 'Casquinha Baunilha', price: 5.50,category:"Sobremesa", image:"/img/menu/17_casquinha_baunilha.png" },
+    { id: 18, name: 'Casquinha Doce de Leite', price: 5.50,category:"Sobremesa", image:"/img/menu/18_casquinha_doce_leite.png" },
+    { id: 19, name: 'Pepsi', price: 14.90,category:"Bebidas", image:"/img/menu/19_pepsi.png" },
+    { id: 20, name: 'Pepsi Twist', price: 14.90,category:"Bebidas", image:"/img/menu/20_pepsi_twist.png" },
+    { id: 21, name: 'Pepsi Black', price: 14.90,category:"Bebidas", image:"/img/menu/21_pepsi_black.png" },
+    { id: 22, name: 'Guaraná', price: 14.90,category:"Bebidas", image:"/img/menu/22_guarana.png" },
+    { id: 23, name: 'Guaraná Zero', price: 14.90,category:"Bebidas", image:"/img/menu/23_guarana_zero.png" },
+    { id: 24, name: 'Aguá de Copo', price: 6.90,category:"Bebidas", image:"/img/menu/24_copo_agua.png" },
 ];
 
 
@@ -44,11 +48,18 @@ function carregarMenu() {
     menuItems.forEach(item => {
         const itemHtml = `
             <div class="col">
-                <div class="card h-100 shadow-sm">
+                <div id="card" class="card h-100">
+                <img src="${item.image}" class="card-img-top" alt="${item.name}">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">${item.emoji} ${item.name}</h5>
+                    
+                        <h5 class="card-title">${item.name}</h5>
+                        <div class="linha">
+                        <span id="category-badge" class="badge rounded-pill ">${item.category}</span>
                         <p class="card-text flex-grow-1">R$ ${item.price.toFixed(2)}</p>
-                        <button class="btn btn-primary mt-auto add-to-cart-btn" data-id="${item.id}">Adicionar ao Pedido</button>
+                        </div>
+                       
+                        
+                        <button id="addCartButton" class="btn btn-primary mt-auto add-to-cart-btn" data-id="${item.id}">Adicionar ao Carrinho</button>
                     </div>
                 </div>
             </div>
@@ -88,7 +99,7 @@ function carregarCarrinho() {
             total += itemTotal;
             const itemHtml = `
                 <li class="list-group-item d-flex justify-content-between align-items-center py-2">
-                    <div class="d-flex align-items-center flex-grow-1">
+                    <div  class="d-flex align-items-center flex-grow-1">
                         <div class="btn-group btn-group-sm me-2" role="group" aria-label="Controles de Quantidade">
                             <button type="button" class="btn btn-outline-secondary decrease-quantity-btn" data-id="${item.id}">-</button>
                             <span class="btn btn-light pe-none">${item.quantity}</span>
@@ -97,9 +108,9 @@ function carregarCarrinho() {
                         <span class="fw-bold">${item.name}</span>
                     </div>
                     <div class="d-flex align-items-center">
-                        <span class="me-3">R$ ${(itemTotal).toFixed(2)}</span>
+                        <span id="cartPrice" class="mx-2">R$ ${(itemTotal).toFixed(2)}</span>
                         <button type="button" class="btn btn-outline-danger btn-sm remove-item-btn" data-id="${item.id}">
-                            🗑️
+                            <img class="remove-img" src="/img/trash.png">
                         </button>
                     </div>
                 </li>
