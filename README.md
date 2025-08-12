@@ -55,11 +55,11 @@
 
 #### Demonstração
 
-<img src="\img/gif\func.gif" alt="App Funcionando">
+<img src="\img\gif\func.gif" alt="App Funcionando">
 
 #### Documentação de cores
 
-<img src="src\assets\images\paleta.png" alt="Paleta"/>
+<img src="\img\screenshots\paleta.png" alt="Paleta"/>
 
 A paleta de cores utilizada no projeto foi escolhida de acordo com o produto chefe da lanchonete, o hamburguer, e a paleta foi testada em todas as questões de contraste e acessibilidade
 
@@ -137,9 +137,11 @@ Entre outras.
 ### 👩👩🧑 Equipe
 <div style="display:flex; align-items:left;">
 
-[<img src="https://avatars.githubusercontent.com/andresenai-dotcom" width=115><br><sub>André de Medeiros Maurício</sub>](https://github.com/andresenai-dotcom)
-[<img src="https://avatars.githubusercontent.com/helomt" width=115><br><sub>Heloisa Tavares</sub>](https://github.com/helomt)
-[<img src="https://avatars.githubusercontent.com/sinara-santinoni" width=115><br><sub>Sinara da Silva Santinoni</sub>](https://github.com/sinara-santinoni)
+[<img src="https://avatars.githubusercontent.com/andresenai-dotcom" width=115>](https://github.com/andresenai-dotcom)
+
+[<img src="https://avatars.githubusercontent.com/helomt" width=115>](https://github.com/helomt)
+
+[<img src="https://avatars.githubusercontent.com/sinara-santinoni"](https://github.com/sinara-santinoni)
 
 
 </div>
