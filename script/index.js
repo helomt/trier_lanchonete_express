@@ -108,7 +108,7 @@ function carregarCarrinho() {
                     </div>
                     <div class="d-flex align-items-center">
                         <span id="cartPrice" class="mx-2">R$ ${(itemTotal).toFixed(2)}</span>
-                        <button type="button" class="btn btn-outline-danger btn-sm remove-item-btn" data-id="${item.id}">
+                        <button type="button" class="btn btn-outline-danger btn-sm remove-item-btn" data-id="${item.id}" onclick=removerItem(${item.id})>
                             <img class="remove-img" src="/img/trash.png">
                         </button>
                     </div>
@@ -193,10 +193,10 @@ document.addEventListener('click', (e) => {
     else if (e.target.classList.contains('decrease-quantity-btn')) {
         diminuir(e.target.dataset.id);
     }
-   
-    else if (e.target.classList.contains('remove-item-btn')) {
-        removerItem(e.target.dataset.id);
-    }
+   //função diretamente no botão para consertar glitch
+    // else if (e.target.classList.contains('remove-item-btn')) {
+    //     removerItem(e.target.dataset.id);
+    // }
 });
 
 
@@ -211,4 +211,10 @@ abrirCarrinhoLateralButton.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     carregarMenu();
     carregarCarrinho();
+});
+
+
+// Inicializa o carrossel do Bootstrap com intervalo de 5 segundos
+const myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'), {
+    interval: 5000 // 5 segundos
 });
