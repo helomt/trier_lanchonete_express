@@ -220,6 +220,21 @@ footer h5 {
 footer p {
   font-size: 12px;
 }
+/* modal */
+#confirmaNomeButton,
+#senhaModal .btn-fechar {
+  background-color: var(--primary);
+  border-color: var(--primary-outline);
+}
+
+#confirmaNomeButton:hover,
+#senhaModal .btn-fechar:hover {
+  background-color: var(--primary-hover);
+}
+
+#senhaPedido {
+  color: var(--primary) !important;
+}
 
 @media (max-width: 800px) {
   header div {
