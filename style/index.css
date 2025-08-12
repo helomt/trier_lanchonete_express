@@ -44,6 +44,26 @@ body {
   border-radius: 0.5rem;
 }
 
+/* botões filtro */
+#filtros-categoria .btn {
+  min-width: 120px;
+  font-weight: 500;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+#filtros-categoria .btn:hover {
+  background-color: var(--primary);
+  border: var(--primary-outline);
+  color: var(--bg);
+}
+
+#filtros-categoria .btn-outline-primary.active {
+  background-color: var(--primary);
+  color: var(--bg);
+  border-color: (var(--primary-outline));
+}
+
 /* card */
 .linha {
   display: grid;
@@ -189,15 +209,15 @@ body {
 footer {
   padding-top: 1rem;
   background-color: var(--primary);
-  color:var(--bg);
+  color: var(--bg);
   margin-top: 0.5rem;
   text-align: center;
   height: 11vh;
 }
-footer h5{
+footer h5 {
   color: var(--details);
 }
-footer p{
+footer p {
   font-size: 12px;
 }
 
@@ -215,6 +235,12 @@ footer p{
   }
   .carousel-item img {
     height: 200px;
+  }
+
+  #filtros-categoria .btn {
+    min-width: 40px;
+    font-weight: 400;
+    font-size: 11px;
   }
 }
 
