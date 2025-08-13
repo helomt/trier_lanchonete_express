@@ -1,4 +1,7 @@
-<img src="\img\icon.png" alt="Logo" height=200px align="center"/>
+
+  <img src="\img\icon.png" alt="Logo" align="center"/>
+
+
 
 <h1 align="center">Lanchonete Express</h1>
 <p align="center"> <strong> Projeto avaliativo referente a disciplina de Desenvolvimento Web do programa Jovem Desenvolvedor Trier </p>
@@ -135,15 +138,18 @@ Entre outras.
 [<img src="https://avatars.githubusercontent.com/helomt" width=115><br><sub>Heloisa Tavares</sub>](https://github.com/helomt)
 
 ### 👩👩🧑 Equipe
-<div style="display:flex; align-items:left;">
+<div style="display:flex; align-items: start;">
 
-[<img src="https://avatars.githubusercontent.com/andresenai-dotcom" width=115>](https://github.com/andresenai-dotcom)
-
-[<img src="https://avatars.githubusercontent.com/helomt" width=115>](https://github.com/helomt)
-
-[<img src="https://avatars.githubusercontent.com/sinara-santinoni"](https://github.com/sinara-santinoni)
-
-
+<a href="https://github.com/andresenai-dotcom">
+   <img src="https://avatars.githubusercontent.com/andresenai-dotcom" alt="André de Medeiros Maurício" style="width: 100px; margin-right: 10px;">
+  </a>
+<a href="https://github.com/helomt">
+   <img src="https://avatars.githubusercontent.com/helomt" alt="Heloisa Martins Tavares" style="width: 100px; margin-right: 10px;">
+  </a>
+  <a href="https://github.com/sinara-santinoni">
+   <img src="https://avatars.githubusercontent.com/sinara-santinoni" alt="Sinara da Silva Santinoni" style="width: 100px; margin-right: 10px;">
+  </a>
+  
 </div>
 <br>
 
