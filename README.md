@@ -1,5 +1,9 @@
-
-  <img src="\img\icon.png" alt="Logo" align="center"/>
+<p align="center">
+  <div align="center">
+     <img src="\img\icon.png" alt="Logo" align="center"/>
+  </div>
+</p>
+ 
 
 
 
