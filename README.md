@@ -16,7 +16,7 @@
 
 <div align="center">
 
-[Sobre o projeto](#sobre-o-projeto) • [Funcionalidades ](#funcionalidades) • [Layout](#layout) • [Como executar](#como-executar-o-projeto) • [Tecnologias](#tecnologias) • [Navegação](#navegação) • [Melhorias](#melhorias) • [Referência](#referência) • [Autora](#autora) • [Licença](#licença)
+[Sobre o projeto](#sobre-o-projeto) • [Funcionalidades ](#funcionalidades) • [Layout](#layout) • [Como executar](#como-executar-o-projeto) • [Tecnologias](#tecnologias) • [Navegação](#navegação) • [Melhorias](#melhorias) • [Referências](#referências) • [Autora](#autora) • [Licença](#licença)
 
 </div>
 
@@ -95,7 +95,7 @@ Entre no diretório do projeto
 
 Abra o arquivo `index.html` em qualquer navegador ou execute o repositório usando uma extensão no VSCode (exemplo: Live Server)
 
-## 🚢 Navegação
+## 🚢Navegação
 
 1. **Navegação**: Usar a barra de rolagem para ver todos os produtos cadastrados
 2. **Filtros**: Filtro para facilitar a busca dos produtos
